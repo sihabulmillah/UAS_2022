@@ -1,0 +1,88 @@
+body {
+    font-family: poppins;
+}
+
+.sidebar,
+.konten,
+.profil {
+    height: 100vh;
+}
+
+.sidebar,
+.profil {
+    overflow-y: hidden;
+}
+
+.konten {
+    padding: 20px 40px;
+    overflow-y: auto;
+
+}
+
+
+.sidebar {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atas ul {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0px;
+}
+
+.atas ul li {
+    margin-top: 6px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.latar {
+    background: linear-gradient(90deg, rgba(175, 127, 203, 0.29) 15%, #AF7FCB 100%);
+    ;
+    color: #9262BC;
+}
+
+.logout {
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(265.1deg, #bf65f3 28.04%, #adafee 161.32%);
+    ;
+
+}
+
+.logout button {
+    transition: .5s;
+}
+
+.logout button:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.title {
+    padding-top: 20px !important;
+}
+
+.profil {
+    padding: 40px 20px 10px;
+    box-sizing: border-box;
+}
+
+.total {
+    padding: 10px;
+    background: linear-gradient(#8EEAFF 0%, rgba(142, 234, 255, .2) 98.84%);
+    border-radius: 10px;
+}
+
+.garis {
+    width: 1px;
+    height: 40px;
+    opacity: .4;
+    background-color: black;
+}
